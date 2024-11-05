@@ -22,9 +22,13 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 Collaborators:
+
 Jarrett Kolts Github: github.com/JarrettKolts LinkedIn: linkedin.com/in/jarrettkolts
+
 Brett Smith, Github: github.com/SelfMadeMilli 
+
 Nicholas Diaz, Github: github.com/Gunther0662
+
 Stacey Jones, Github: github.com/sjones73 LinkedIn: linkedin.com/in/stacey-j-3b43a276
 
 ## Features
