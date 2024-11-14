@@ -1,7 +1,16 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^5.3.3",
     "mongoose": "^8.8.0"
+=======
+    "apollo": "^2.34.0",
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0",
+    "mongoose": "^8.8.0",
+    "server": "^1.0.41"
+>>>>>>> bdee609e1deb5bd159fecd2344b2a9d0adf4ba68
   },
   "devDependencies": {
     "vite": "^5.4.10"
