@@ -13,5 +13,16 @@ function NavTabs() {
                 Home
             </Link>
         </li>
-    )
+        <li className="nav-item">
+            <Link
+            to="/Signup"
+            className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+            >
+                Signup
+            </Link>
+        </li>
+        </ul>
+    );
 }
+
+export default NavTabs;
