@@ -4,11 +4,11 @@ const { signToken, AuthenticationError } = require('../utils/auth');
 const resolvers = {
   Query: {
     // GETTING ALL USERS
-    users: async () => {
+    profiles: async () => {
       return User.find().populate('savedRecipes');
     },
     // GETTING SPECIF USER BY USERNAME
-    user: async (parent, { username }) => {
+    profile: async (parent, { username }) => {
       return User.findOne({ username }).populate('savedRecipes');
     },
     // GETTING CURRENTLY LOGGEDIN USER
@@ -22,7 +22,7 @@ const resolvers = {
 
   Mutation: {
     // FOR CREATING A NEW USER
-    addUser: async (parent, { username, email, password }) => {
+    addProfile: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
       const token = signToken(user);
       return { token, user };
