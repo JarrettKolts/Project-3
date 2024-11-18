@@ -2,6 +2,7 @@ import './App.css';
 import { Outlet } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import Nav from './components/NavTabs';
+import Home from './pages/Home'
 
 const client = new ApolloClient({
     uri: '/graphl',
@@ -13,7 +14,7 @@ function App() {
     return (
         <>
         <Nav />
-        <main classsName="mx-3">
+        <main classsName="app">
             <Outlet />
         </main>
         </>

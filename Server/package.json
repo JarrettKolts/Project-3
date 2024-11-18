@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "googlebooks-app",
     "version": "1.0.0",
     "description": "",
@@ -25,6 +26,26 @@
 =======
     "bcrypt": "^4.0.1",
     "express": "^4.17.1",
+=======
+  "name": "mern-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "apollo-server-express": "^3.6.2",
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.2",
+    "graphql": "^16.6.0",
+>>>>>>> dfdffd5b381ae7f3cda7a3705a7566d8e7c607ca
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^8.0.0"
   },
@@ -33,4 +54,3 @@
 >>>>>>> 7d289a762c4a86aa78bff9d97393c74bd642245b
   }
 }
->>>>>>> 2bfd086b096f0b8b4119577db206b30a06d69441
