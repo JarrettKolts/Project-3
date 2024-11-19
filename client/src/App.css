@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+.pasta {
+    background-image: url('images\fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    font-family:'Times New Roman', Times, serif;
+    overflow: hidden;
+    background-color: #399cbd;
+    color: black;
+};
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gold;
+    color: black;
+}

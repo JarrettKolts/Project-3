@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-node_modules
-.env
-=======
 # Logs
 logs
 *.log
@@ -10,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+node_modules
 client/node_modules
 server/node_modules
 dist
@@ -27,4 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
->>>>>>> 2bfd086b096f0b8b4119577db206b30a06d69441
