@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button, Container } from 'react-bootstrap';
 
-const SignUp = () => {
+const Login = () => {
     const [formData, setFormData] = useState({
         username: '',
         email: '',
