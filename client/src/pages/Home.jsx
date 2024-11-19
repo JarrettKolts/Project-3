@@ -1,15 +1,9 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useQuery } from 'apollo/client';
-import Nav from './components/NavTabs';
-import React from 'react';
+import Nav from '../components/NavTabs';
 
-const Home = () => {
-    const { loading, data } = useQuery(QUERY_MATCHUPS, {
-        fetchPolicy: "no-cache"
-    });
-      
-const matchupList = data?.matchups || [];
-      
+export default function Home() {
+  
 return ( 
     <div>
     <header>
@@ -77,7 +71,6 @@ return (
     </main>
     </div>
     
-)
+    );
 };
 
-export default Home;
