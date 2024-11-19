@@ -1,8 +1,7 @@
-// src/SignUp.js
 import React, { useState } from 'react';
 import { Form, Button, Container } from 'react-bootstrap';
 
-const SignUp = () => {
+const Login = () => {
     const [formData, setFormData] = useState({
         username: '',
         email: '',
@@ -68,18 +67,4 @@ const SignUp = () => {
     );
 };
 
-export default SignUp;
-
-// // src/App.js
-// import React from 'react';
-// import SignUp from './SignUp';
-
-// const App = () => {
-//     return (
-//         <div>
-//             <SignUp />
-//         </div>
-//     );
-// };
-
-// export default App;
+export default Login;
