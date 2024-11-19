@@ -1,40 +1,82 @@
-# Super Supper 
+# Super Supper
 
-## Description
+### Description
+Super Supper revolutionizes the online food ordering experience by providing a seamless, personalized, and interactive platform for users to explore and order meals.
 
-<!-- Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+### Motivation
+This project was inspired by a group of Bootcamp students aiming to provide recipes to cut down the time it takes to search and prepare supper for families. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn? -->
+### User Story?
+Super Supper was created to address to help users discover quick and easy recipes to cook for supper time. 
 
-Super Supper was inspired by a group of students who wanted to change the idea of how we order food online. When using Super Supper we want the user to have the ability to (). In achieving this goal we (). Along the way we learned ().
+### Problem Solved
+Super Supper simplifies the process of discovering recipes while offering tailored recommendations and an intuitive interface, all powered by a robust MERN stack backend.
 
-## Usage
+### Learning Outcomes
+Through the development of Super Supper, we enhanced our understanding of:
 
-Provide instructions and examples for use. Include screenshots as needed.
+Building a full-stack MERN application.
+Implementing agile software development methodologies.
+Managing collaborative development workflows using Git branching and pull requests.
+Solving merge conflicts efficiently.
+Deploying applications to Render with professional-quality UI and responsive design.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+### Usage
+To use Super Supper:
 
-![alt text](assets/images/screenshot.png)
+Visit Super Supper.
+Create an account or log in to explore the menu.
+Browse recipe options and login and logout securely.
 
-## Credits
+### Screenshots
+Add screenshots to showcase your application:
 
+markdown
+Copy code
+![Homepage](assets/images/homepage.png)  
+![Order Page](assets/images/order_page.png)  
+
+### Technologies Used
+Front End: React.js
+Backend: Node.js, Express.js
+Database: MongoDB (via Mongoose ODM)
+API: GraphQL for queries and mutations
+Authentication: JSON Web Tokens (JWT)
+Deployment: Render
+
+### Future Developments
+Responsive, polished UI for mobile and desktop.
+Checkout ingredients and cooking tools to create dishes from online store.
+Interactive meal customization.
+User authentication and secure transactions.
+Integration with real-world data for menu recommendations.
+Real-time updates using GraphQL queries and mutations.
+
+### Credits
 Collaborators:
 
-Jarrett Kolts Github: github.com/JarrettKolts LinkedIn: linkedin.com/in/jarrettkolts
+Jarrett Kolts
 
-Brett Smith, Github: github.com/SelfMadeMilli 
+GitHub: github.com/JarrettKolts
+LinkedIn: linkedin.com/in/jarrettkolts
+Brett Smith
 
-Nicholas Diaz, Github: github.com/Gunther0662
+GitHub: github.com/SelfMadeMilli
+Nicholas Diaz
 
-Stacey Jones, Github: github.com/sjones73 LinkedIn: linkedin.com/in/stacey-j-3b43a276
+GitHub: github.com/Gunther0662
+Stacey Jones
 
-## Features
+GitHub: github.com/sjones73
+LinkedIn: linkedin.com/in/stacey-j-3b43a276
 
-If your project has a lot of features, list them here.
+### Check It Out
+Access the live application at: Super Supper.
 
-## Check it out
+### Development Highlights
+This project emphasizes:
 
-https://www.supersupper.com
+Collaborative coding in a team environment.
+Following agile workflows and Git best practices.
+Building scalable and user-focused applications with MERN stack.
+Super Supper is more than a project; it's a demonstration of teamwork, technical skills, and a commitment to creating meaningful user experiences.
