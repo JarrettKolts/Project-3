@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useQuery } from 'apollo/client';
-import { QUERY_MATCHUPS } from '../utils/queries';
-import Nav from '../components/NavTabs';
+import Nav from './components/NavTabs';
 import React from 'react';
 
 const Home = () => {
